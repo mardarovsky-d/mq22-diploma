@@ -1,0 +1,336 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("../fonts/OpenSans-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Open Sans Bold";
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+p, span, a {
+  font-family: "Open Sans";
+  letter-spacing: 0.05em;
+}
+
+.container {
+  box-sizing: border-box;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 85px;
+  position: relative;
+}
+
+.header {
+  background-image: url(../images/football_767.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #0a0e34;
+  position: relative;
+}
+
+.header::before {
+  content: "";
+  background-color: #0a0e34;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-svg {
+  fill: #ffffff;
+  height: 40px;
+}
+
+.slogan-first-row {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: inherit;
+}
+
+.slogan-second-row {
+  margin-left: 65px;
+  font-family: inherit;
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download-button {
+  display: flex;
+  height: 35px;
+  width: 87.5%;
+  background-color: #5e42b0;
+  border-radius: 17px;
+  font-size: 8px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button-content {
+  display: flex;
+  margin-left: 80px;
+  align-items: center;
+}
+
+.button-icon {
+  fill: #ffffff;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.button-text {
+  text-align: left;
+}
+
+.button-text-store {
+  display: block;
+  font-family: "Open Sans Bold";
+}
+
+.article-header {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.main-article-title {
+  font-size: 50px;
+  color: #e7e7e7;
+  height: 300px;
+}
+
+.image-wrapper {
+  align-self: center;
+  position: absolute;
+  top: 80px;
+}
+
+.after-footballer {
+  margin-top: 20px;
+}
+
+.inner-text-list {
+  padding: 54px 20px;
+}
+
+.light-grey-block {
+  background-color: #fafafa;
+}
+
+.light-violet-block {
+  background-color: #f5f4f9;
+}
+
+.violet-block {
+  background-color: #5e42b0;
+  color: #fff;
+}
+
+.blue-block {
+  background-color: #090c35;
+  color: #fff;
+}
+
+.underlined-number, .underlined-number-violet {
+  font-size: 14px;
+  font-family: "Open Sans Bold";
+  color: #000;
+  margin-right: 5px;
+}
+
+.underlined-number::after {
+  content: "";
+  background-color: #5e42b0;
+  display: block;
+  border-radius: 2px;
+  height: 4px;
+  width: 17px;
+}
+
+.underlined-number-blue {
+  font-size: 14px;
+  font-family: "Open Sans Bold";
+  color: #8765dd;
+  margin-right: 5px;
+}
+
+.underlined-number-violet::after, .underlined-number-blue::after {
+  content: "";
+  background-color: #fff;
+  display: block;
+  border-radius: 2px;
+  height: 4px;
+  width: 17px;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  color: #c1c1c1;
+  margin-bottom: 17px;
+}
+
+.inner-text {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.aside-article-image-wrapper {
+  position: relative;
+}
+
+.aside-article-image {
+  width: 100%;
+}
+
+.aside-article-number {
+  height: 70px;
+  width: 70px;
+  background-color: #5e42b0;
+  color: #ffffff;
+  position: absolute;
+  left: 20px;
+  bottom: -5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-article-underlined-number {
+  font-size: 14px;
+  font-family: "Open Sans Bold";
+  color: #fff;
+  margin-right: 5px;
+}
+
+.aside-article-underlined-number::after {
+  content: "";
+  background-color: #8f7bc8;
+  display: block;
+  border-radius: 2px;
+  height: 4px;
+  width: 17px;
+}
+
+.aside-article-text-wrapper {
+  padding: 35px 20px 80px 20px;
+}
+
+.aside-article-title {
+  font-size: 28px;
+  line-height: 34px;
+  color: #e7e7e7;
+  margin-bottom: 10px;
+}
+
+.aside-article-text {
+  font-size: 16px;
+}
+
+.footer {
+  background-image: url(../images/game_767.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0a0e34;
+  position: relative;
+}
+
+.footer::after {
+  content: "";
+  background-color: #0a0e34;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.footer-container {
+  box-sizing: border-box;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 71px;
+  height: 74px;
+  align-self: center;
+  background: linear-gradient(#7554d5, #51389c);
+  border-radius: 15px;
+}
+
+.footer-slogan-call-to-action {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+}
+
+.footer-slogan {
+  font-family: "Open Sans";
+  color: #9b8ec1;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.footer-download-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
