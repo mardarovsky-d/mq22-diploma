@@ -858,7 +858,7 @@ img {
   }
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) and (max-width: 1919px) {
   .main-article-title {
     font-size: 4.1666vw;
   }
