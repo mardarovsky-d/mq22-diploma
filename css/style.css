@@ -38,7 +38,6 @@ img {
 
 .container {
   box-sizing: border-box;
-  height: 100vh;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -214,8 +213,6 @@ img {
   color: #e7e7e7;
 }
 
-
-
 .footer {
   background-repeat: no-repeat;
   background-size: cover;
@@ -272,7 +269,6 @@ img {
   .container {
     justify-content: space-around;
     padding-top: 30px;
-    padding-bottom: 85px;
   }
 
   .header {
@@ -284,6 +280,7 @@ img {
   }
 
   .slogan {
+    margin-top: 120px;
     font-size: 28px;
   }
 
@@ -294,10 +291,12 @@ img {
 
   .slogan-second-row {
     margin-left: 67px;
+    margin-bottom: 80px;
   }
 
   .download-buttons {
     flex-direction: column;
+    margin-bottom: 80px;
   }
 
   .download-button {
@@ -430,10 +429,9 @@ img {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .container {
-    box-sizing: border-box;
+
     justify-content: space-between;
     padding-top: 38px;
-    padding-bottom: 85px;
 
   }
 
@@ -447,6 +445,7 @@ img {
 
   .slogan {
     font-size: 8.333333vw;
+    margin-top: 180px;
   }
 
   .slogan-first-row {
@@ -456,10 +455,12 @@ img {
 
   .slogan-second-row {
     margin-left: 196px;
+    margin-bottom: 300px;
   }
 
   .download-buttons {
     justify-content: space-evenly;
+    margin-bottom: 85px;
   }
 
   .download-button {
@@ -631,6 +632,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 90px;
+    margin-top: 14vw;
   }
 
   .slogan-first-row {
@@ -639,7 +641,7 @@ img {
 
   .slogan-second-row {
     text-align: right;
-    margin-bottom: 20px;
+    margin-bottom: 11vw;
   }
 
   .download-buttons {
