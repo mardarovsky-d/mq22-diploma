@@ -446,7 +446,7 @@ img {
   }
 
   .slogan {
-    font-size: 64px;
+    font-size: 8.333333vw;
   }
 
   .slogan-first-row {
@@ -563,13 +563,13 @@ img {
   }
 
   .aside-article-title {
-    font-size: 80px;
+    font-size: 10.41666667vw;
     line-height: 60px;
     margin-bottom: 30px;
   }
 
   .aside-article-text {
-    font-size: 24px;
+    font-size: 3.125vw;
     line-height: 28px;
   }
 
@@ -595,12 +595,12 @@ img {
   }
 
   .footer-slogan-call-to-action {
-    font-size: 80px;
-    line-height: 60px;
+    font-size: 10.41666667vw;
+    line-height: 7.8125vw;
   }
 
   .footer-slogan {
-    font-size: 36px;
+    font-size: 4.6875vw;
     line-height: 60px;
   }
 
